@@ -2,7 +2,7 @@ const amqplib = require('amqplib');
  
 //.env
 const amqplib_url_cloud = 'amqps://mlnifnyq:SVBvjGFcmNdVdQ-cFsNB78ViPFi_DVIU@armadillo.rmq.cloudamqp.com/mlnifnyq';
-const amqplib_url_docker = '';
+const amqplib_url_docker = 'amqps://localhost:5672';
 
 const receive_queue = async () =>{
     try {
